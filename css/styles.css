@@ -43,6 +43,8 @@ address {
 }
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -60,8 +62,7 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
-
+  margin-left: auto;
   margin-right: auto;
 }
 .section {
@@ -99,7 +100,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  padding-right: 147px;
+  margin-right: 76px;
 }
 .header-logo-color {
   font-weight: 800;
@@ -202,7 +203,6 @@ body {
 }
 .strategy-item {
   min-width: 264px;
-  flex-basis: calc((100% - 72) / 4);
 }
 .strategy-title {
   font-weight: 500;
@@ -236,7 +236,7 @@ body {
   gap: 24px;
 }
 .orientation-item {
-  flex-basis: calc((100% - 48) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .team {
   background-color: var(--second-back);
@@ -256,7 +256,7 @@ body {
 }
 .team-item {
   background-color: var(--baground-color-main);
-  flex-basis: calc((100% - 72) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .team-card-text {
   padding-top: 32px;
@@ -309,7 +309,7 @@ body {
 
 /* !!!!! PORTFOLIO !!!!! */
 .potrfolio-block {
-  padding-top: 168px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .filter-list {
@@ -352,7 +352,7 @@ body {
   gap: 48px 24px;
 }
 .portfolio-item {
-  flex-basis: calc((100% - 384) / 9);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-link {
 }
